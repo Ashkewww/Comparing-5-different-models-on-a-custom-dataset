@@ -1,2 +1,2 @@
 
-*.h5
+models/face_classifier_VGG16.h5
