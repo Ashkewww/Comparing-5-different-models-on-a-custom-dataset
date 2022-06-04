@@ -44,7 +44,7 @@ checkpoint = ModelCheckpoint(name_to_save,
 # EarlyStopping to find best model with a large number of epochs
 earlystop = EarlyStopping(monitor='val_loss',
                           restore_best_weights=True,
-                          patience=5,  # number of epochs with no improvement after which training will be stopped
+                          patience=5, 
                           verbose=1)
 
 callbacks = [earlystop, checkpoint]
